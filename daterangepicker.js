@@ -425,6 +425,7 @@
                 this.element.off('focus', this.show);
             }
 
+            this.element.removeData('daterangepicker');
             this.container.remove();
         },
 
